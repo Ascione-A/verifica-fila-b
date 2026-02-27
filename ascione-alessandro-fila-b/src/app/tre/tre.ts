@@ -2,10 +2,9 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-tre',
-  imports: [],
   templateUrl: './tre.html',
-  styleUrl: './tre.css',
+  styleUrls: ['./tre.css']
 })
-export class Tre {
-
+export class tre {
+  tuo_nome: string = 'tre';
 }

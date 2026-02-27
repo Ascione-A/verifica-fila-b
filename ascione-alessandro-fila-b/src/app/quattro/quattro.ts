@@ -1,11 +1,9 @@
 import { Component } from '@angular/core';
-
 @Component({
   selector: 'app-quattro',
-  imports: [],
   templateUrl: './quattro.html',
-  styleUrl: './quattro.css',
+  styleUrls: ['./quattro.css']
 })
-export class Quattro {
-
-}
+export class quattro {
+  tuo_nome: string = 'quattro';
+}     
